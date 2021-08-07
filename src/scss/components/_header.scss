@@ -11,14 +11,14 @@
 }
 
 header{
-    background-image:url("/../images/Group_562.jpg");
+    background-image:url("../images/Group_562.jpg");
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     &::before{
         content: '';
-        background-image: url("/../images/Group 245.svg");
+        background-image: url("../images/Group 245.svg");
         position: absolute;
         background-repeat: no-repeat;
         top: 0;
