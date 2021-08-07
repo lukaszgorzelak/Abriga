@@ -1,0 +1,27 @@
+@mixin fontBaskerville{
+	@font-face {
+		font-family: 'Baskerville';
+		src: local('Baskerville'),
+			 url(/../Fonts/Baskerville/Baskerville-Display-PT-Bold.otf), format('opentype'),
+			 url(/../Fonts/Baskerville/Baskerville-Display-PT-Italic.otf), format('opentype'),
+			 url(/../Fonts/Baskerville/BaskervilleBoldBT.ttf), format('truetype'),
+			 url(/../Fonts/Baskerville/BaskervilleBT.ttf), format('truetype'),
+	}
+}
+
+@mixin fontFutura{
+	@font-face {
+		font-family: 'Futura';
+		src: local('Futura'),
+			 url(/../Fonts/Futura/FuturaPT-Light.ttf), format('truetype'),
+			 url(/../Fonts/Futura/FuturaPT-Light.woff), format('woff'),
+			 url(/../Fonts/Futura/FuturaPT-Light.eot), format('embedded-opentype'),
+	}
+}
+
+@mixin center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+

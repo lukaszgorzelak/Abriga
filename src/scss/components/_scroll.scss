@@ -1,0 +1,33 @@
+.scroll{
+  display: none;
+  .fa{
+    color:$font-color;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    animation: arrow 2s infinite;
+  }
+}
+
+.scrollBox{
+    width: 4rem;
+    height: 4rem;
+    background-color: $bg-color-cooperation-left;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem; 
+    cursor: pointer;  
+  }
+
+  @keyframes arrow {
+    0%{
+      transform: translateY(-0.5rem);
+    }
+    50%{
+      transform: translateY(0);
+    }
+
+    100%{
+      transform: translateY(-0.5rem);
+    }
+  }

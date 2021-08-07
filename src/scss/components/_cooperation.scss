@@ -1,0 +1,185 @@
+.cooperation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xl)){
+        grid-template-columns: 1fr;
+      }
+
+    .cooperation_describe{
+        color: $font-color;
+        font-family: Baskerville;
+        text-align: left;
+        font-weight: normal;
+    }
+    .cooperation__left{
+        background-color: $bg-color-cooperation-left;
+        min-height: 101.8rem;
+        @include center;
+        position: relative;
+       &::before{
+            content: '';
+            background-image: url("/../images/Group 455.svg");
+            position: absolute;
+            background-repeat: round;
+            bottom: 0;
+            left: 0;
+            transform: translateX(-30%);
+            width: 53.4rem;
+            height: 30.6rem;
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)){
+                width: 93%;
+                height: 16%;
+                transform: unset;
+              }
+        }
+        
+       
+        .cooperation__describe__left{
+            width: 55.7rem;
+            height: 30.5rem;
+            font-size: 5rem;
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)){
+                width: 26.7rem;
+                font-size: 3rem;
+              }
+        }
+    }
+    .cooperation__right{
+        background-color: $bg-color-cooperation-right;
+        min-height: 101.8rem;
+        @include center;
+        flex-direction: column;
+        justify-content: flex-start;
+        .cooperation__describe__right{
+            width: 56.6rem;
+            height: 28.3rem;
+            font-size: 8rem;
+            margin-bottom: 5.5rem;
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)){
+                width: 17.7rem;
+                font-size: 3rem;
+                margin-bottom: unset;
+                height: unset;
+              }
+        }
+        .cooperation_list{
+            text-align: left;
+            color: $font-color;
+            font-family: Futura;
+            font-weight: normal;
+            font-size: 2rem;
+            width: 55.4rem;
+            height: 35.6rem;
+            list-style: none;
+            white-space: break-spaces;
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)){
+                font-size: 2rem;
+                width: 26.4rem;
+              }
+            .cooperation_list__item{
+                padding-left: 0.5em; 
+                position: relative;
+                &::before {
+                    content: "";
+                    background-color: $bg-color-cooperation-contact;
+                    width: 1.4rem;
+                    height: 1.4rem;
+                    position: absolute;
+                    top: 1rem;
+                    left: -2.5rem;
+                    display: block;
+                    border-radius: 50%;
+                  }
+            }
+        }
+    }
+    .cooperation__form{
+        background-color: $bg-color-cooperation-form;
+        min-height: 96.6rem;
+        @include center;
+        form{
+            label{
+                display: block;
+                letter-spacing: .28rem;
+                font-family: Futura;
+                font-size: 1.4rem;
+                margin-top: 3.482rem;
+                margin-bottom: .5rem;
+
+            }
+            label:last-of-type{
+                margin-bottom: 19.182rem;
+            }
+
+            input,textarea{
+                border: none;
+                border-bottom: 1px solid $text-color;
+                background-color: $bg-color-cooperation-form;
+                width: 51.6rem;
+                font-size: 2rem;
+                @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)){
+                    width: 100%;
+                  }
+            }
+
+            textarea{
+                resize: none;
+            }
+
+            button{
+                @include center;
+                margin-left: auto;
+                border: none;
+                margin-top: 8.518rem;
+                width: 20.9rem;
+                height: 6.7rem;
+                letter-spacing: .28rem;
+                text-align: center;
+                background-color: $bg-color-cooperation-left;
+                color:$font-color;
+                border-radius:3rem;
+                font-family: Futura;
+                font-weight: bold;
+                font-size: 1.4rem;
+                cursor: pointer;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #BE3B27;
+                }  
+            }
+        }
+    }
+    .cooperation__contact{
+        background-color: $bg-color-cooperation-contact;
+        min-height: 96.6rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        h4{
+            font-size: 4.5rem;
+            text-align: center;
+            color: $font-color;
+            font-family: Baskerville;
+            margin-bottom: 6.7rem;
+            font-weight: normal;
+        }
+        p{
+            font-size: 2rem;
+            text-align: center;
+            color: $font-color;
+            font-family: Futura;
+            margin-top: -1rem;
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)){
+                font-size: 1.6rem;
+              }
+        }
+        p:last-of-type{
+            color: $mail-color;
+        }
+
+        .cooperation__distribution{
+            transform: translateY(-15%);
+        }
+    }
+}

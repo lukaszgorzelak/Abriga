@@ -1,0 +1,42 @@
+.success{
+    display: flex;
+    justify-content: center;
+    min-height: 96.6rem;
+    align-items: center;
+    color: green;
+    font-size: 6.5rem;
+    @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)){
+        font-size: 5rem;
+    }
+    h4{
+      margin-right: 5%;
+    }
+}
+
+.invalid{
+  border:1px solid red !important;
+  outline: none;
+  box-shadow: 0 0 2px red;
+}
+
+.valid{
+  border: 1px solid #4dcc23 !important;
+  outline: none;
+  box-shadow: 0 0 2px #4dcc23;
+}
+
+.form-message{
+    color: red;
+    margin-top: 5%;
+    .form-error-title{
+      font-size: 3.6rem;
+      margin-bottom: 5%;
+    }
+    .form-error-list{
+      list-style: none;
+      li{
+        margin-bottom: .5rem;
+        font-size: 2rem;
+      }
+    }
+}

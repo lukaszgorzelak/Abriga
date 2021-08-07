@@ -1,0 +1,91 @@
+.women{
+    min-height: 80rem;
+    .women_wrapper{
+        min-height: 81.1rem;
+        margin-top: 20.4rem;
+        margin-bottom: 20.4rem;
+        figure:not(figure.women_wrapper-img){
+           img:first-of-type{
+            transform: translateX(-3.9rem);
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xl)){
+                transform:unset;
+              }
+           }
+           img:last-of-type{
+            transform: translateX(3.9rem);
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xl)){
+                transform:unset;
+              }
+           }
+            
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .women_wrapper_info{
+                @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xl)){
+                    margin-top: 2.2rem;
+                  }
+                margin-top: 12.2rem;
+                .women_wrapper_text{
+                    width: 35.4rem;
+                    height: 4.3rem;
+                    letter-spacing: .36rem;
+                    text-align: center;
+                    font-size: 1.8rem;
+                    font-family: Futura;
+                    color: $mail-color;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xl)){
+                        width: unset;
+                        font-size: 1.5rem;
+                        letter-spacing: 0.16rem;
+                      }
+                    span{
+                        white-space: nowrap;
+                    }
+                }
+                h5{
+                    width: 38.2rem;
+                    height: 1.6rem;
+                    text-align: center;
+                    font-size: 4.5rem;
+                    font-family: Baskerville;
+                    margin-top:2.4rem;
+                    @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xl)){
+                        width: unset;
+                        font-size: 2.5rem;
+                      }
+                }
+            }      
+        }
+        img{
+            height: 39rem;
+            width: 39.1rem;
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xl)){
+                height: 25rem;
+                width: 25rem;
+              }
+        }
+        .women_wrapper-img{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top:2.8rem;
+            img{
+                margin-right: 2rem;
+                padding-left: 2rem;
+                height: 41rem;
+                width: 41rem;
+                @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xl)){
+                    height: 27rem;
+                    width: 27rem;
+                  }
+                @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, xxxl)){
+                    margin-bottom: 2.8rem;
+                  }
+
+            }
+        }
+    }
+}

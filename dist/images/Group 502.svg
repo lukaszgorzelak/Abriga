@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.96" height="62.443" viewBox="0 0 48.96 62.443">
+  <g id="Group_502" data-name="Group 502" transform="translate(-494.417 -449.719)">
+    <g id="Group_500" data-name="Group 500" transform="translate(495.811 450.943)">
+      <g id="Group_499" data-name="Group 499">
+        <rect id="Rectangle_231" data-name="Rectangle 231" width="13.716" height="7.675" rx="0.459" transform="translate(6.438 12.981)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect id="Rectangle_232" data-name="Rectangle 232" width="6.433" height="7.52" rx="0.493" transform="translate(9.994)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect id="Rectangle_233" data-name="Rectangle 233" width="5.09" height="5.46" rx="0.493" transform="translate(10.751 7.52)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_374" data-name="Path 374" d="M495.811,452.338a6.4,6.4,0,0,1,3.24-1.268c1.435-.113,2.152.409,3.849.435a8.808,8.808,0,0,0,3.065-.511" transform="translate(-495.811 -450.942)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_375" data-name="Path 375" d="M495.949,454.972a5.951,5.951,0,0,1,3.084-1.3c1.4-.129,2.118.409,3.832.435a8.7,8.7,0,0,0,2.91-.463" transform="translate(-495.808 -450.893)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_376" data-name="Path 376" d="M495.952,455c-.047-.441-.094-2.24-.141-2.682" transform="translate(-495.811 -450.918)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <path id="Rectangle_234" data-name="Rectangle 234" d="M6.573,0h9.419a6.573,6.573,0,0,1,6.573,6.573V39.3a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6.573A6.573,6.573,0,0,1,6.573,0Z" transform="translate(2.361 20.919)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Group_501" data-name="Group 501" transform="translate(529.615 474.264)">
+      <rect id="Rectangle_235" data-name="Rectangle 235" width="12.762" height="27.525" transform="translate(0 9.095)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect id="Rectangle_236" data-name="Rectangle 236" width="9.008" height="8.856" transform="translate(2.002)" fill="none" stroke="#eb6832" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

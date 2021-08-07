@@ -1,0 +1,126 @@
+
+
+@-webkit-keyframes opacity {
+    from { opacity: 0; }
+    to { opacity: 1 }
+}
+
+@keyframes opacity {
+    from { opacity: 0; }
+    to { opacity: 1 }
+}
+
+header{
+    background-image:url("/../images/Group_562.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    &::before{
+        content: '';
+        background-image: url("/../images/Group 245.svg");
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 19.3rem;
+        height: 19.3rem;
+        -webkit-animation: opacity 5s linear;
+                animation: opacity 5s linear;
+        -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1;
+    }
+    .wrapper__icon{
+       position: absolute;
+       top: 7.675rem;
+       right:9.8rem;
+       svg:hover path{
+        fill:#4dabf7;
+        }
+        svg:hover {
+        cursor: pointer;
+        }  
+       svg:nth-of-type(1){
+           margin-right: calc(8.727rem - 31px);
+       }
+
+       @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)) {
+        display: flex;
+        flex-direction: column;
+        left: 7.5%;
+        svg:nth-of-type(2){
+            margin-right: unset;
+            margin-top:1rem;
+        }
+      }
+    }
+   
+    .wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        margin: 0;
+        @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)) and (orientation: portrait) {
+            transform: translate(-50%,-23%);
+        }
+        @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)) and (orientation: landscape) {
+            transform: translate(-50%,2%);
+        }
+        h1{
+            font-size: 7.9rem;
+            color: $font-color;
+            font-family: Baskerville;
+            width: 87.8rem;
+            height: 18.4rem;
+            margin-bottom:3.1rem;
+            font-weight: normal;
+            white-space: nowrap;
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)) and (orientation: portrait) {
+                height: unset;
+                margin-bottom:unset;
+            }
+            @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)) and (orientation: landscape) {
+                height: unset;
+                margin-bottom: -1.9rem;
+            }
+            @media all and (min-width: map-get($brakepoints, xs)){
+                width: unset;
+                font-size: 2.5rem;
+              }
+
+            @media all and (min-width: map-get($brakepoints, sm)){
+                font-size: 3.5rem;
+                width: 40rem;
+              }
+
+            @media all and (min-width: map-get($brakepoints, md)){
+                font-size: 4.5rem;
+                width: 50rem;
+              }
+            @media all and (min-width: map-get($brakepoints, lg)){
+                font-size: 7.9rem;
+                width: 87.8rem;
+              }
+        }
+        button{
+            background: $bg-color-cooperation-left;
+            color:$font-color;
+            width: 28.9rem;
+            height: 6.7rem;
+            border: none;
+            border-radius:3rem;
+            text-transform: uppercase;
+            letter-spacing: .28rem;
+            font-size: 1.4rem;
+            font-family: Futura;
+            font-weight: bold;
+            &:hover {
+                cursor: pointer;
+                background-color: #BE3B27;
+            }  
+        }
+    }
+}
