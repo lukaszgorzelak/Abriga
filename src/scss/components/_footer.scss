@@ -21,6 +21,9 @@ footer{
         text-transform: uppercase;
         font-weight: 600;
         text-align: center;
+        @media all and (min-width: map-get($brakepoints, xs)) and (max-width: map-get($brakepoints, sm)){
+        transform: translateX(-5%);
+        }
         ul{
             list-style: none;
             li{
